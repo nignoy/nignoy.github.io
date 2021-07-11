@@ -1,0 +1,142 @@
+.hidden{
+    display:none;
+}
+
+.bg{
+    background-size:cover;
+    height: 100vh;
+    
+}
+
+.clockStyle{
+    color : seashell;
+    text-shadow: grey 0px 0 6px;
+    text-align:center;
+    vertical-align:bottom;
+    font-size:150px;
+    margin:0;
+    margin-top:50px;
+    
+}
+
+.weatherStyle{
+    color : seashell;
+    text-shadow: grey 0px 0 6px; 
+    text-align:right;
+    margin-right:20px;
+    font-weight:bold;
+    font-size:20px;
+    margin-top:5px;
+}
+
+.greetingStyle{
+    color : seashell;
+    text-shadow: grey 0px 0 6px; 
+    text-align:center;
+    vertical-align: auto;
+    font-size:80px;
+
+}
+
+
+button{
+    background:transparent;
+    color:seashell;
+    text-shadow: grey 0px 0 6px; 
+    border:none;
+    position:relative;
+    height:40px;
+    font-size:20px;
+    padding:0 1em;
+    cursor:pointer;
+    transition:800ms ease all;
+    outline:none;
+    font-weight:600;
+    margin-left: 20px;
+  }
+  button:hover{
+    background:transparent;
+    color:seashell;
+  }
+  button:before,button:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px;
+    width:0;
+    background: seashell;
+    transition:400ms ease all;
+  }
+  button:after{
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+  }
+  button:hover:before,button:hover:after{
+    width:100%;
+    transition:800ms ease all;
+  }
+
+  input {
+    color : seashell;
+    background:transparent;
+    border:none;
+    font-size : 30px;
+    text-align:center; 
+    display:block; 
+    margin: auto;
+    margin-top:50px;
+
+}
+
+.between{
+    margin:50px;
+}
+
+
+input::-webkit-input-placeholder {
+     color: slategrey; 
+     text-shadow: grey 0px 0 6px; }
+input::-moz-placeholder {
+     color: slategrey; 
+     text-shadow: grey 0px 0 6px; }
+
+.quote {
+    
+    
+    color : seashell;
+    text-shadow: grey 0px 0 6px;
+    text-align:center;
+    vertical-align: bottom;
+    font-size: 30px;
+    font-weight:bold;
+    margin:auto;
+    border-color: seashell;
+    padding-bottom:30px;
+    
+}
+
+body{
+    margin:0px;
+    
+}
+
+.line {
+    border-top : dashed 2px;
+    width :50%;
+    margin:auto;
+    padding-top: 30px;
+    color:seashell;
+}
+
+.todo-list{
+    color : seashell;
+    text-shadow: grey 0px 0 6px;
+    text-align:center;
+    font-size :30px;
+    font-weight:700;
+    list-style:none
+
+}
